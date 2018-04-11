@@ -43,8 +43,12 @@ public class Maracas : MonoBehaviour {
 	void Update () {
         OVRInput.Update();
 
+<<<<<<< HEAD
         Debug.Log("X: " + OVRInput.GetLocalControllerAngularVelocity(scriptL.controller).x + " Y: " + OVRInput.GetLocalControllerAngularVelocity(scriptL.controller).y + "Z: " + OVRInput.GetLocalControllerAngularVelocity(scriptL.controller).z);
         
+=======
+        Debug.Log(OVRInput.GetLocalControllerVelocity(scriptL.controller).z);
+>>>>>>> origin/master
 
         if (scriptL.grabbing == true && scriptL.grabbedObject.name == "maracas")
         {
@@ -52,9 +56,12 @@ public class Maracas : MonoBehaviour {
 
         }
 
+<<<<<<< HEAD
         PlaySounds();
 
 
+=======
+>>>>>>> origin/master
         // If there is an increase og decrease in any xyz by 0.2f play sound. 
         // The problem right now is that float values in vectors is only showing 1 decimal, while there is alot of them. 
        
