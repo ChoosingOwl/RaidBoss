@@ -269,7 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grabbedObject: {fileID: 0}
   grabbing: 0
-  grabRadius: 0.01
+  grabRadius: 0.05
   grabMask:
     serializedVersion: 2
     m_Bits: 256
@@ -712,8 +712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32a813d42120f19438f945ae0ad79dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioForward: {fileID: 8300000, guid: f05da0f5ff650d440a6a37934b6dcc0e, type: 3}
-  audioBackward: {fileID: 8300000, guid: 7f453496ec53ffc46b1c838dc88ec6e6, type: 3}
+  audioForward: {fileID: 0}
+  audioBackward: {fileID: 0}
 --- !u!1 &1809639993
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,7 +968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grabbedObject: {fileID: 0}
   grabbing: 0
-  grabRadius: 0.01
+  grabRadius: 0.05
   grabMask:
     serializedVersion: 2
     m_Bits: 256
